@@ -1,0 +1,25 @@
+{
+2  "name": "ASAP Core",
+3  "version": "1.0.0",
+4  "src": "https://asap.dev/core.plugins.js",
+5  "widgets": [
+6    {
+7      "type": "dev.asap:text",
+8      "label": "Text",
+9      "fieldSettings": "asap-text-field-settings",
+10      "fieldValue": "asap-text-field-value"
+11    },
+12    {
+13      "type": "dev.asap:rich-text",
+14      "label": "Rich text",
+15      "fieldSettings": "asap-rich-field-settings",
+16      "fieldValue": "asap-rich-field-value"
+17    },
+18    {
+19      "type": "dev.asap:boolean",
+20      "label": "Boolean",
+21      "fieldSettings": "asap-checkbox-field-settings",
+22      "fieldValue": "asap-checkbox-field-value"
+23    }
+24  ]
+25}
